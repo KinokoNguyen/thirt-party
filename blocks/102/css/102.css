@@ -1,0 +1,92 @@
+.type-102 .swiper-container {
+  width: 100%;
+}
+.type-102 .swiper-container .swiper-wrapper {
+  height: auto !important;
+}
+.type-102 .swiper-container .swiper-wrapper .swiper-slide {
+  height: auto !important;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.type-102 .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.type-102 .swiper-container .title {
+  font-weight: bold;
+}
+.type-102 .swiper-container .social {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  float: right;
+  width: 150px;
+  height: 45px;
+  background: #b7b9b4;
+  -webkit-transition: right 1.5s;
+  transition: right 1.5s;
+  position: absolute;
+  z-index: 50;
+  top: 50px;
+  right: -130px;
+}
+.type-102 .swiper-container .social .icon-social {
+  padding: 6px 0 0 20px;
+}
+.type-102 .swiper-container .social .icon-social .fa {
+  font-size: 15px;
+  border-radius: 50%;
+  padding: 7px;
+  margin-right: 7px;
+}
+.type-102 .swiper-container .social .icon-social .fa-facebook {
+  border: 2px solid #497abf;
+  color: #497abf;
+}
+.type-102 .swiper-container .social .icon-social .fa-youtube-play {
+  border: 2px solid #f93735;
+  color: #f93735;
+}
+.type-102 .swiper-container .social .icon-social .fa-twitter {
+  border: 2px solid #00cdff;
+  color: #00cdff;
+}
+.type-102 .swiper-container .social:hover {
+  right: 0px;
+}
+.type-102 .swiper-button-prev .fa,
+.type-102 .swiper-button-next .fa {
+  font-size: 40px;
+  color: #532f1f;
+}
+.type-102 .swiper-button-prev .btn-prev {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #532f1f;
+  font-size: 0.95em;
+}
+.type-102 .swiper-button-next .btn-next {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #532f1f;
+  font-size: 0.95em;
+}
+@media (max-width: 478px) {
+  .type-102 .swiper-button-next,
+  .type-102 .swiper-button-prev {
+    display: none;
+  }
+}
