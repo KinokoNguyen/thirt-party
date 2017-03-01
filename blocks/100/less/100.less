@@ -1,16 +1,23 @@
 .type-100{
     @color_background_header: #f0d898;
-
+    .clear{
+        clear: both;
+    }
     .container-fluld {
         background: @color_background_header;
     }
 
     /******************HEADER TOP********************/
     .top-icons {
-        padding-top: 10px;
+        padding-top: 5px;
         font-size: 10px;
         ul {
             float: right;
+            margin-bottom: 0px;
+            padding: 0;
+            .right {
+                padding-top: 6px;
+            }
         }
         li {
             float: left;
@@ -27,8 +34,23 @@
                 color: #512d1f;
                 text-decoration: none;
             }
+            p {
+                font-size: 14px;
+                font-weight: bold;
+                float: left;
+                border: 2px solid #000;
+                border-radius: 5px;
+                padding: 3px 6px;
+            }
+            .fa-phone:before {
+                content: "\f095";
+                padding-right: 10px;
+            } 
         }
-    } 
+    }
+    .dropbtn {
+        display: none;
+    }
 
     /*-------------REPONSIVE--------------*/
     @media (min-width: 992px){
@@ -36,7 +58,47 @@
             max-width: 960px;
         }
     }
-    @media (min-width: 768px){
-
+    @media (max-width: 768px){
+        .dropbtn {
+            padding: 5px;
+            font-size: 12px;
+            cursor: pointer;
+            display: block;
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #512d1f;
+            }
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: @color_background_header;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 6px 8px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #b7b06c;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .top-icons li {
+            padding: 0;
+            margin: 0;
+        }
     }
 }
