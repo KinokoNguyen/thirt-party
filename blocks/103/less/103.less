@@ -1,23 +1,65 @@
 .type-103{
     @color_background_footer: #512d1f;
     @color_font_white: #fff;
-
+    
+    border-top: 3px solid #f0d898;
     .copyright {
         background: @color_background_footer;
         color: @color_font_white;
         padding: 15px;
         font-size: 11px;
         p {
-            float: right;
             padding: 30px 0;
         }
     }
     .logo-cert {
-        float: right;
         width: 100%;
         padding: 0;
         img {
             padding: 0 8px;
+        }
+    }
+    .dropbtn {
+        background-color: #d5d0cc;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;      
+    }
+    /*------------REPONSIVE----------*/
+    @media (min-width: 480px){
+        
+    }
+    @media (min-width: 992px){
+        .dropbtn{
+            display: none;
+        }
+        p {
+            float: right;
+        }
+        .logo-cert {
+            float: left;
+        } 
+        
+        
+    }
+    @media (max-width: 992px){
+        .dropbtn{
+            border-radius: 7px;
+        }
+        .logo-cert {
+            display: none;
+            background: #f1f0f0;
+        } 
+        .dropdown:hover .logo-cert {
+            display: block;          
+        }
+        .dropdown:hover{
+            .dropbtn{
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+            }
         }
     }
 }
