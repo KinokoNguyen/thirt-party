@@ -1,0 +1,42 @@
+.type-100{
+    @color_background_header: #f0d898;
+
+    .container-fluld {
+        background: @color_background_header;
+    }
+
+    /******************HEADER TOP********************/
+    .top-icons {
+        padding-top: 10px;
+        font-size: 10px;
+        ul {
+            float: right;
+        }
+        li {
+            float: left;
+            list-style: outside none none;
+            margin-right: 10px;
+            span {
+                border-right: 1px solid #000;
+                padding-right: 10px;
+            }
+            a {
+                color: #000;
+            }
+            a:hover {
+                color: #512d1f;
+                text-decoration: none;
+            }
+        }
+    } 
+
+    /*-------------REPONSIVE--------------*/
+    @media (min-width: 992px){
+        .container {
+            max-width: 960px;
+        }
+    }
+    @media (min-width: 768px){
+
+    }
+}
