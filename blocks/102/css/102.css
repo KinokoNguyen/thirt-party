@@ -39,6 +39,9 @@
   top: 50px;
   right: -130px;
 }
+.type-102 .swiper-container .social a {
+  text-decoration: none;
+}
 .type-102 .swiper-container .social .icon-social {
   padding: 6px 0 0 20px;
 }
@@ -51,6 +54,7 @@
 .type-102 .swiper-container .social .icon-social .fa-facebook {
   border: 2px solid #497abf;
   color: #497abf;
+  padding: 7px 10px;
 }
 .type-102 .swiper-container .social .icon-social .fa-youtube-play {
   border: 2px solid #f93735;
@@ -86,7 +90,8 @@
 }
 @media (max-width: 478px) {
   .type-102 .swiper-button-next,
-  .type-102 .swiper-button-prev {
+  .type-102 .swiper-button-prev,
+  .type-102 .social {
     display: none;
   }
 }

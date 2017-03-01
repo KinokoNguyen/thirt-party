@@ -43,6 +43,9 @@
             z-index: 50;
             top: 50px;
             right: -130px;
+            a{
+                text-decoration: none;
+            }
             .icon-social{
                 padding: 6px 0 0 20px;
                 .fa{
@@ -54,6 +57,7 @@
                 .fa-facebook{
                     border: 2px solid #497abf;
                     color: #497abf;
+                    padding: 7px 10px;
                 }
                 .fa-youtube-play{
                     border: 2px solid #f93735;
@@ -61,7 +65,7 @@
                 }
                 .fa-twitter{
                     border: 2px solid #00cdff;
-                    color: #00cdff;
+                    color: #00cdff;                   
                 }
             }
         }
@@ -99,9 +103,10 @@
 
 /***********************Reponsive*************************/
     @media (max-width: 478px){
-        .swiper-button-next, .swiper-button-prev{
+        .swiper-button-next, .swiper-button-prev, .social{
             display: none
         }
+        
     }
 }
 
