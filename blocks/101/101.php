@@ -14,6 +14,7 @@
     ?>
     <link href="css/101.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script> 
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
 </head>
 
@@ -21,59 +22,62 @@
     <div class="type-100">
         <div class="container-fluld">
             <!--HEADER TOP-->
-            
-            <!--/END HEADER TOP-->
 
+            <!--/END HEADER TOP-->
+            <div class="container-fluld" style="padding: 2px;"></div>
             <!--MENU-->
-            <div class="container-fluld">
-                <div class="background-menu">
-                <div class="container">
-                    <a class="logo" href="#"><img src="images/logo.png" alt=""/></a>  
-                    <div class="mini-submenu active">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </div>
-                    <div class="list-group">
-                        <ul class="menu">
-                            <li><a href="#"  class="list-group-item">SẠCH TỪ NÔNG TRẠI ĐẾN LY CAFE</a>
-                                <ul>
-                                    <li><a href="#">Sạch từ nông trại đến ly cà phê</a></li>
-                                    <li><a href="#">Nguồn gốc nông trại</a></li>
-                                    <li><a href="#">Gieo trồng</a></li>
-                                    <li><a href="#">Thu hoạch</a></li>
-                                    <li><a href="#">Ly cà phê ngon</a></li>
+            <div class="body-wrap">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-inverse" role="navigation">
+                        <!--CONTAINER FLUID-->
+                        <div class="container">
+
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""/></a>
+                            </div>
+
+                            <!--COLLECT NAVBAR TOGGLING-->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>SẠCH TỪ NÔNG TRẠI ĐẾN LY CAFE</b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"><b>Sạch từ nông trại đến ly cà phê</b></a></li>
+                                            <li><a href="#"><b>Nguồn gốc nông trại</b></a></li>
+                                            <li><a href="#"><b>Gieo trồng</b></a></li>
+                                            <li><a href="#"><b>Thu hoạch</b></a></li>
+                                            <li><a href="#"><b>Ly cà phê ngon</b></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"><b>SẢN PHẨM L'AMANT</b></a></li>
+                                    <li><a href="#"><b>L'AMANT PHIN ĐIỆN</b></a></li>
+                                    <li><a href="#"><b>L'AMANT APP</b></a></li>
+                                    <li><a href="#"><b>BLOG L'AMANT</b></a></li>
                                 </ul>
-                            </li>
-                            <li><a href="#"  class="list-group-item">SẢN PHẨM L'AMANT</a></li>
-                            <li><a href="#"  class="list-group-item">L'AMANT PHIN ĐIỆN</a></li>
-                            <li><a href="#"  class="list-group-item">L'AMANT APP</a></li>
-                            <li><a href="#"  class="list-group-item">BLOG L'AMANT</a></li>
-                        </ul>
-                    </div>
-                </div>
+                            </div>
+                            <!--/END NAVBAR-COLLAPSE-->
+                        </div>
+                        <!--/END CONTAINER FLUID-->
+                    </nav>
                 </div>
             </div>
             <!--/END MENU-->
 
             <div class="container-fluld" style="padding: 2px;"></div>
-            
+
         </div>
     </div>
 </body>
 <script>
-    $(function () {
-
-        $('.mini-submenu').on('click', function () {
-            $(this).closest('.list-group').fadeOut('slide', function () {
-                $('.mini-submenu').fadeIn();
-            });
-
-        });
-
-        $('.mini-submenu').on('click', function () {
-            $(this).next('.list-group').toggle('slide');
-            $('.mini-submenu').hide();
-        })
-    })
+    $('ul.nav li.dropdown').hover(function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+    }, function () {
+        $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+    });
 </script>
