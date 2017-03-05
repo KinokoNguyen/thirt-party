@@ -45,7 +45,7 @@
                             <!--COLLECT NAVBAR TOGGLING-->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <ul class="nav navbar-nav">
-                                    <li class="dropdown">
+                                    <li class="">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>SẠCH TỪ NÔNG TRẠI ĐẾN LY CAFE</b></a>
                                         <ul class="dropdown-menu">
                                             <li><a href="#"><b>Sạch từ nông trại đến ly cà phê</b></a></li>
@@ -53,8 +53,8 @@
                                             <li><a href="#"><b>Gieo trồng</b></a></li>
                                             <li><a href="#"><b>Thu hoạch</b></a></li>
                                             <li><a href="#"><b>Ly cà phê ngon</b></a></li>
-                                        </ul>
-                                    </li>
+                                        </ul>                                        
+                                    </li>                                    
                                     <li><a href="#"><b>SẢN PHẨM L'AMANT</b></a></li>
                                     <li><a href="#"><b>L'AMANT PHIN ĐIỆN</b></a></li>
                                     <li><a href="#"><b>L'AMANT APP</b></a></li>
