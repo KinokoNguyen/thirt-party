@@ -10,20 +10,35 @@
 .type-103 .copyright p {
   padding: 30px 0;
 }
-.type-103 .logo-cert {
+.type-103 .copyright .logo-cert {
   width: 100%;
   padding: 0;
 }
-.type-103 .logo-cert img {
+.type-103 .copyright .logo-cert img {
   padding: 0 8px;
 }
-.type-103 .dropbtn {
+.type-103 .copyright .dropbtn {
   background-color: #d5d0cc;
   color: black;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
+}
+.type-103 .copyright .carousel-control.left,
+.type-103 .copyright .carousel-control.right {
+  background-image: none;
+}
+.type-103 .copyright .carousel-inner {
+  margin: auto;
+  width: 90%;
+}
+.type-103 .copyright .carousel-control {
+  width: 4%;
+  top: 15px;
+}
+.type-103 .copyright .fa {
+  font-size: 30px;
 }
 @media (min-width: 992px) {
   .type-103 .dropbtn {
@@ -50,5 +65,13 @@
   .type-103 .dropdown:hover .dropbtn {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .type-103 .active .demo {
+    display: none;
+  }
+  .type-103 .active .demo:first-child {
+    display: block;
   }
 }

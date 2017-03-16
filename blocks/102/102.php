@@ -12,7 +12,7 @@
     $less->compileFile('less/102.less', 'css/102.css');
     ?>
     <link href="css/102.css" rel="stylesheet" type="text/css"/>
-    <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    
 </head>
 
 <body>
@@ -40,6 +40,7 @@
                 </div>
                 <!--END SLIDE BANNER-->
                 
+                <!--ICON-->
                 <div class="social">
                     <div class="icon-social">
                         <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
@@ -47,6 +48,7 @@
                         <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
                     </div>
                 </div>
+                <!--END ICON-->
                 
                 <!--ARROWS -->
                 <div class="swiper-button-next"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span></div>
@@ -58,5 +60,6 @@
         </div>
     </div>
 </body>
+
 <script src="js/swiper.min.js" type="text/javascript"></script>
 <script src="js/102.js" type="text/javascript"></script>
