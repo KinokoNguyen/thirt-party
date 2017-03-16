@@ -1,21 +1,20 @@
-.type-100{
+.type-101{
     @color_background_header: #f0d898;
     @color_font_menu_2: #573229;
+    @color_font_menu_1: #f2da9a;
+    font-family: PT Serif;
 
     .container-fluld {
         background: @color_background_header;
     }
 
     /*-------------MENU--------------*/
-    .body-wrap {
-        margin-top: 20px;
-    }
     .navbar-brand {
         margin: 0;
         padding: 0;
         img {
             width: 160px;
-            margin-top: -15px;
+            margin-top: -16px;
         }
     }
     .navbar {
@@ -28,7 +27,7 @@
         }
     }
     .navbar-inverse .navbar-nav>li>a {
-        color: #f2da9a;
+        color: @color_font_menu_1;
     }
     .navbar-nav {
         li a:hover:before {
@@ -98,6 +97,11 @@
             display: none;
         }   
     }
+    .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+        color: #573229;
+        text-decoration: none;
+        background-color: none;
+    }
 
     /*-----------MENU TOGGLE--------------*/
     .navbar-inverse .navbar-toggle .icon-bar {
@@ -106,6 +110,10 @@
     .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover {
         color: @color_background_header;
         background-color: #000;
+    }
+    .navbar-inverse .navbar-nav>li>a:hover{
+        color: @color_font_menu_1;
+        background-color: transparent;
     }
 
     /*-------------REPONSIVE--------------*/
@@ -140,6 +148,10 @@
     @media (max-width: 767px) {
         .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
             color: @color_font_menu_2;
+        }
+        .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+            color: @color_font_menu_2;
+            background-color: transparent;
         }
         .navbar-nav {
             li a:hover:before {

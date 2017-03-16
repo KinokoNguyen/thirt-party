@@ -1,5 +1,8 @@
 .type-100{
     @color_background_header: #f0d898;
+    @color_hover_topmenu: #573229;
+    font-family: PT Serif;
+
     .clear{
         clear: both;
     }
@@ -13,7 +16,7 @@
         font-size: 10px;
         ul {
             float: right;
-            margin-bottom: 0px;
+            margin-bottom: -5px;
             padding: 0;
             .right {
                 padding-top: 6px;
@@ -22,31 +25,35 @@
         li {
             float: left;
             list-style: outside none none;
-            margin-right: 10px;
-            span {
-                border-right: 1px solid #000;
-                padding-right: 10px;
-            }
+            margin-right: 6px;
             a {
                 color: #000;
             }
             a:hover {
-                color: #512d1f;
+                color: #573229;
                 text-decoration: none;
             }
             p {
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: bold;
-                float: left;
                 border: 2px solid #000;
-                border-radius: 5px;
                 padding: 3px 6px;
+                border-radius: 15px 20px 20px 50px;
             }
             .fa-phone:before {
                 content: "\f095";
                 padding-right: 10px;
-            } 
+            }
+            span {
+                padding: 0 6px 0 6px;
+            }
         }
+    }
+    .top-icons ul li {
+        border-right: 1px solid #000;
+    }
+    .top-icons ul li:first-child, .top-icons ul li:last-child {
+        border-right: none;
     }
     .dropbtn {
         display: none;
@@ -75,18 +82,17 @@
         .dropdown {
             position: relative;
             display: inline-block;
+            float: right;
         }
         .dropdown-content {
             display: none;
             position: absolute;
             background-color: @color_background_header;
-            min-width: 160px;
+            min-width: 140px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
+            z-index: 9999;
             a {
-                color: black;
-                padding: 6px 8px;
-                text-decoration: none;
+                padding: 5px 15px 5px 5px;
                 display: block;
             }
             a:hover {
@@ -99,6 +105,12 @@
         .top-icons li {
             padding: 0;
             margin: 0;
+            p {
+                display: none;
+            }
+        }
+        .top-icons ul li {
+            border-right: none;
         }
     }
 }

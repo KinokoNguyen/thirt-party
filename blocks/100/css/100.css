@@ -1,3 +1,6 @@
+.type-100 {
+  font-family: PT Serif;
+}
 .type-100 .clear {
   clear: both;
 }
@@ -10,7 +13,7 @@
 }
 .type-100 .top-icons ul {
   float: right;
-  margin-bottom: 0px;
+  margin-bottom: -5px;
   padding: 0;
 }
 .type-100 .top-icons ul .right {
@@ -19,30 +22,35 @@
 .type-100 .top-icons li {
   float: left;
   list-style: outside none none;
-  margin-right: 10px;
-}
-.type-100 .top-icons li span {
-  border-right: 1px solid #000;
-  padding-right: 10px;
+  margin-right: 6px;
 }
 .type-100 .top-icons li a {
   color: #000;
 }
 .type-100 .top-icons li a:hover {
-  color: #512d1f;
+  color: #573229;
   text-decoration: none;
 }
 .type-100 .top-icons li p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
-  float: left;
   border: 2px solid #000;
-  border-radius: 5px;
   padding: 3px 6px;
+  border-radius: 15px 20px 20px 50px;
 }
 .type-100 .top-icons li .fa-phone:before {
   content: "\f095";
   padding-right: 10px;
+}
+.type-100 .top-icons li span {
+  padding: 0 6px 0 6px;
+}
+.type-100 .top-icons ul li {
+  border-right: 1px solid #000;
+}
+.type-100 .top-icons ul li:first-child,
+.type-100 .top-icons ul li:last-child {
+  border-right: none;
 }
 .type-100 .dropbtn {
   display: none;
@@ -69,19 +77,18 @@
   .type-100 .dropdown {
     position: relative;
     display: inline-block;
+    float: right;
   }
   .type-100 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f0d898;
-    min-width: 160px;
+    min-width: 140px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 9999;
   }
   .type-100 .dropdown-content a {
-    color: black;
-    padding: 6px 8px;
-    text-decoration: none;
+    padding: 5px 15px 5px 5px;
     display: block;
   }
   .type-100 .dropdown-content a:hover {
@@ -93,5 +100,11 @@
   .type-100 .top-icons li {
     padding: 0;
     margin: 0;
+  }
+  .type-100 .top-icons li p {
+    display: none;
+  }
+  .type-100 .top-icons ul li {
+    border-right: none;
   }
 }
