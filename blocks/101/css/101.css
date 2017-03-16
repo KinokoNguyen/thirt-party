@@ -120,9 +120,6 @@
   .type-101 .nav {
     font-size: 10px;
   }
-  .type-101 .nav>li>a {
-    padding: 15px 5px;
-  }
 }
 @media (min-width: 768px) {
   .type-101 .navbar {

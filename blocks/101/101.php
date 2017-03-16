@@ -75,11 +75,26 @@
         </div>
         <div class="clearfix"></div>
     </div>
+    
+    <!--    
     <script>
-        $('ul.nav li.dropdown').hover(function () {
-            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-        }, function () {
-            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+        $(document).ready(function () {
+            function headHover() {
+                if ($(document).width() >= 768) {
+                    $('ul.nav li.dropdown').hover(function () {
+                        $(this).find('.dropdown-menu').stop(true, true).delay(20).fadeIn(200);
+                    }, function () {
+                        $(this).find('.dropdown-menu').stop(true, true).delay(20).fadeOut(200);
+                    });
+                } else {
+                    $('ul.nav li.dropdown').unbind('hover');
+                }
+            }
+            headHover();
+            $(document).resize(function () {
+                headHover();
+            });
         });
-    </script>
+    </script>-->
+    
 </body>
