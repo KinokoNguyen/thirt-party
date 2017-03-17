@@ -1,0 +1,77 @@
+.type-103 {
+  border-top: 3px solid #f0d898;
+}
+.type-103 .copyright {
+  background: #512d1f;
+  color: #fff;
+  padding: 15px;
+  font-size: 11px;
+}
+.type-103 .copyright p {
+  padding: 30px 0;
+}
+.type-103 .copyright .logo-cert {
+  width: 100%;
+  padding: 0;
+}
+.type-103 .copyright .logo-cert img {
+  padding: 0 8px;
+}
+.type-103 .copyright .dropbtn {
+  background-color: #d5d0cc;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.type-103 .copyright .carousel-control.left,
+.type-103 .copyright .carousel-control.right {
+  background-image: none;
+}
+.type-103 .copyright .carousel-inner {
+  margin: auto;
+  width: 90%;
+}
+.type-103 .copyright .carousel-control {
+  width: 4%;
+  top: 15px;
+}
+.type-103 .copyright .fa {
+  font-size: 30px;
+}
+@media (min-width: 992px) {
+  .type-103 .dropbtn {
+    display: none;
+  }
+  .type-103 p {
+    float: right;
+  }
+  .type-103 .logo-cert {
+    float: left;
+  }
+}
+@media (max-width: 992px) {
+  .type-103 .dropbtn {
+    border-radius: 7px;
+  }
+  .type-103 .logo-cert {
+    display: none;
+    background: #f1f0f0;
+  }
+  .type-103 .dropdown:hover .logo-cert {
+    display: block;
+  }
+  .type-103 .dropdown:hover .dropbtn {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .type-103 .active .demo {
+    display: none;
+  }
+  .type-103 .active .demo:first-child {
+    display: block;
+  }
+}

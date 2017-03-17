@@ -1,0 +1,114 @@
+.type-104{
+    font-family: PT Serif;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    .clear{
+        clear: both;
+    }
+    @color_btn: #512d1f;
+    @color_text: #4e2d1c;
+    @color_backgroud: #dfd7d5;
+
+    .product{
+        border-radius: 10px;
+        background: @color_backgroud;
+        opacity: 0.8;    
+        padding: 10px 5px 5px 5px;  
+        img{
+            max-width: 100%;
+        }
+        .col-left{
+            padding-right: 5px;
+        }
+        .title{
+            color: @color_text;
+            font-size: 17px;
+            font-weight: bold; 
+            margin-top: 0px;
+        }
+        .content{
+            .p-content{
+                margin-right: 15px;
+                text-align: justify;
+                color: @color_text; 
+                font-weight: 500;
+                font-size: 15px;
+            }
+        }
+        .btn-click{ 
+            margin: 15px 0;
+            .a-click:hover{
+                text-decoration: none;
+                padding: 7px;
+                background: #885642;
+                border-radius: 5px;
+            }
+            .a-click{
+                text-decoration: none;
+                padding: 7px;
+                background: @color_btn;
+                color: #fff;
+                border-radius: 5px;
+            }
+            .fa{
+                font-size: 15px;
+            }
+        }
+    }
+    /*-------REPONSIVE------------*/
+    @media (min-width: 768px){
+        .type-104{
+            top: 560px;
+        }
+    }
+    @media (max-width: 767px){       
+        img{
+            display: none;
+        }
+        .title, .btn-click{
+            text-align: center;
+        }
+        .product{
+            margin-top: 15px;
+        }
+        .product:last-child{
+            margin-bottom: 15px;
+        }
+        .p-content{
+            margin-right: 0 !important;
+        }
+        .type-104 {
+            top: 460px;
+        }
+    } 
+    @media (max-width: 480px){
+        .col-left{
+            display: none;
+        }
+        .col-right{
+            padding: 0 15px;
+        }
+        .fa{
+            display: none;
+        }
+        .title{
+            font-size: 12px;
+            text-align: center;
+        }
+        /*        .col-xs-4{
+                    padding:0 5px;
+                }*/
+
+        /*        .col-xs-8{
+                    width: 100%;
+                }*/
+
+        .type-104 {
+            top: 380px;
+        } 
+    }
+}
