@@ -17,6 +17,9 @@
 .type-103 .copyright .logo-cert img {
   padding: 0 8px;
 }
+.type-103 .copyright img:hover {
+  opacity: 0.5;
+}
 .type-103 .copyright .dropbtn {
   background-color: #d5d0cc;
   color: black;

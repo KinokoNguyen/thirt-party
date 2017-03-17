@@ -70,7 +70,8 @@
             </div>
             <!--/END MENU-->
 
-            <div class="container-fluld" style="padding: 2px; background-color: #f0d898"></div>
+            <div class="container-fluld" style="padding: 2px; background-color: #f0d898"> </div>
+            
 
         </div>
         <div class="clearfix"></div>

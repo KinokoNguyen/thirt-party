@@ -56,6 +56,9 @@
   padding: 7px;
   margin-right: 7px;
 }
+.type-102 .swiper-container .social .icon-social .fa:hover {
+  color: #885642;
+}
 .type-102 .swiper-container .social .icon-social .fa-facebook {
   border: 2px solid #497abf;
   color: #497abf;
@@ -89,6 +92,10 @@
 .type-102 .swiper-button-next .fa {
   font-size: 40px;
   color: #532f1f;
+}
+.type-102 .swiper-button-prev .fa:hover,
+.type-102 .swiper-button-next .fa:hover {
+  color: #885642;
 }
 .type-102 .swiper-button-prev .btn-prev {
   position: absolute;
