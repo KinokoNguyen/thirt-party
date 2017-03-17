@@ -1,5 +1,5 @@
 .type-103 {
-  border-top: 3px solid #f0d898;
+  border-top: 5px solid #f0d898;
 }
 .type-103 .copyright {
   background: #512d1f;
@@ -35,7 +35,7 @@
 }
 .type-103 .copyright .carousel-control {
   width: 4%;
-  top: 15px;
+  top: 25px;
 }
 .type-103 .copyright .fa {
   font-size: 30px;
@@ -73,5 +73,15 @@
   }
   .type-103 .active .demo:first-child {
     display: block;
+  }
+  .type-103 .copyright {
+    padding: 0 !important;
+  }
+  .type-103 .copyright p {
+    text-align: center;
+    padding: 15px 0px !important;
+  }
+  .type-103 .carousel-inner {
+    margin-bottom: 15px;
   }
 }

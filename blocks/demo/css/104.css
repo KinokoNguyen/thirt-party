@@ -1,7 +1,5 @@
 .type-104 {
   font-family: PT Serif;
-  position: absolute;
-  z-index: 100;
   left: 0;
   bottom: 0;
   right: 0;
@@ -54,11 +52,16 @@
   font-size: 15px;
 }
 @media (min-width: 768px) {
-  .type-104 .type-104 {
-    top: 560px;
+  .type-104 {
+    position: absolute;
+    z-index: 100;
   }
 }
 @media (max-width: 767px) {
+  .type-104 {
+    background-color: #512D1F;
+    padding-bottom: 15px;
+  }
   .type-104 img {
     display: none;
   }
@@ -75,9 +78,6 @@
   .type-104 .p-content {
     margin-right: 0 !important;
   }
-  .type-104 .type-104 {
-    top: 460px;
-  }
 }
 @media (max-width: 480px) {
   .type-104 .col-left {
@@ -92,8 +92,5 @@
   .type-104 .title {
     font-size: 12px;
     text-align: center;
-  }
-  .type-104 .type-104 {
-    top: 380px;
   }
 }
