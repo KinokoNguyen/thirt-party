@@ -12,8 +12,10 @@
     $less->compileFile('less/103.less', 'css/103.css');
     ?>
     <link href="css/103.css" rel="stylesheet" type="text/css"/>
-
     
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.js" type="text/javascript"></script>
     
 </head>
 
@@ -25,69 +27,37 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <p><b>© Copyright 2017 L'amant Café. All rights reseved.</b></p>
                 </div>
-                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">               
-                    <div class="carousel slide" data-ride="carousel" data-type="multi" data-interval="3000" id="myCarousel">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
-                                    <a href="#">
-                                        <img src="images/google-play-badge.png" width="90px" height="90px" alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
-                                    <a href="#">
-                                        <img src="images/haccp.png" width="90px" height="90px" alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
-                                    <a href="#">
-                                        <img src="images/google-play-badge.png" width="90px" height="90px" alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
-                                    <a href="#">
-                                        <img src="images/haccp.png" width="90px" height="90px" alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
-                                    <a href="#">
-                                        <img src="images/google-play-badge.png" width="90px" height="90px" alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
-                                    <a href="#">
-                                        <img src="images/haccp.png" width="90px" height="90px" alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
-                                    <a href="#">
-                                        <img src="images/google-play-badge.png" width="90px" height="90px" alt=""/>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-                        <a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 logo" style="text-align: center;">               
+                    <div id="owl-demo" class="owl-carousel">
+                        <div class="item"><img src="images/google-play-badge.png" alt="Owl Image"></div>
+                        <div class="item"><img src="images/haccp.png" alt="Owl Image"></div>
+                        <div class="item"><img src="images/google-play-badge.png" alt="Owl Image"></div>
+                        <div class="item"><img src="images/haccp.png" alt="Owl Image"></div>
+                        <div class="item"><img src="images/google-play-badge.png" alt="Owl Image"></div>
+                        <div class="item"><img src="images/haccp.png" alt="Owl Image"></div>
+                        <div class="item"><img src="images/google-play-badge.png" alt="Owl Image"></div>
+                        <div class="item"><img src="images/haccp.png" alt="Owl Image"></div>
+                        <div class="item"><img src="images/google-play-badge.png" alt="Owl Image"></div>
+                        <div class="item"><img src="images/haccp.png" alt="Owl Image"></div>
                     </div>
-
 
                 </div>
             </div>
             <!--/END FOOTER-->
         </div>
     </div>
+    
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+                autoPlay: 3000,
+                items: 6,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
+            });
+
+        });
+    </script>
 </body>
 
-<script src="js/index.js"></script>
+<!--<script src="js/index.js"></script>-->

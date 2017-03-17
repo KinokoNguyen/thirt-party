@@ -43,6 +43,21 @@
 .type-103 .copyright .fa {
   font-size: 30px;
 }
+.type-103 .owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.type-103 .owl-carousel .owl-item {
+  float: left;
+}
+.type-103 .owl-controls .owl-page,
+.type-103 .owl-controls .owl-buttons div {
+  cursor: pointer;
+}
+.type-103 img {
+  width: 60%;
+}
 @media (min-width: 992px) {
   .type-103 .dropbtn {
     display: none;
@@ -86,5 +101,16 @@
   }
   .type-103 .carousel-inner {
     margin-bottom: 15px;
+  }
+  .type-103 img {
+    width: 30% !important;
+  }
+  .type-103 .logo {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .type-103 img {
+    width: 45% !important;
   }
 }
