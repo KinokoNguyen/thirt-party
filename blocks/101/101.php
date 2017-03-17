@@ -21,7 +21,7 @@
 
 <body>
     <div class="type-101">
-        <div class="container-fluld">
+        <div class="container-fluld ">
             <!--HEADER TOP-->
 
             <!--/END HEADER TOP-->
@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <nav class="navbar navbar-inverse" role="navigation">
                         <!--CONTAINER FLUID-->
-                        <div class="container">
+                        <div class="container top-menu">
 
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

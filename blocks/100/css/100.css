@@ -56,7 +56,7 @@
   display: none;
 }
 @media (min-width: 992px) {
-  .type-100 .container {
+  .type-100 .header-top-dr {
     max-width: 960px;
   }
 }
@@ -80,12 +80,13 @@
     float: right;
   }
   .type-100 .dropdown-content {
-    display: none;
+    display: block;
     position: absolute;
     background-color: #f0d898;
     min-width: 140px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 9999;
+    height: 175px;
   }
   .type-100 .dropdown-content a {
     padding: 5px 15px 5px 5px;
@@ -106,5 +107,8 @@
   }
   .type-100 .top-icons ul li {
     border-right: none;
+  }
+  .type-100 .top-icons {
+    padding-top: 0 !important;
   }
 }

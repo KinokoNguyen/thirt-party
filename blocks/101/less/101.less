@@ -4,8 +4,22 @@
     @color_font_menu_1: #f2da9a;
     font-family: PT Serif;
 
-    .container-fluld {
-        background: @color_background_header;
+    .body-wrap{
+        /*-----------MENU TOGGLE--------------*/
+        .navbar-inverse .navbar-toggle .icon-bar {
+            background-color: @color_background_header;
+        }
+        .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover {
+            color: @color_background_header;
+            background-color: #000;
+        }
+        .navbar-inverse .navbar-nav>li>a:hover{
+            color: @color_font_menu_1;
+            background-color: transparent;
+        }
+        .top-menu-fluld {
+            background: @color_background_header;
+        }
     }
 
     /*-------------MENU--------------*/
@@ -73,7 +87,7 @@
             border-bottom: 0;
         }
         li:hover {
-            background: #d9d7cb;
+            background: #d0ca7f; //#d9d7cb
         }
         li a:hover {
             background: none;
@@ -103,27 +117,14 @@
         background-color: none;
     }
 
-    /*-----------MENU TOGGLE--------------*/
-    .navbar-inverse .navbar-toggle .icon-bar {
-        background-color: @color_background_header;
-    }
-    .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover {
-        color: @color_background_header;
-        background-color: #000;
-    }
-    .navbar-inverse .navbar-nav>li>a:hover{
-        color: @color_font_menu_1;
-        background-color: transparent;
-    }
-
     /*-------------REPONSIVE--------------*/
     @media (min-width: 992px){
-        .container {
+        .top-menu {
             max-width: 960px;
         }
     }
     @media (max-width: 992px){
-        .container {
+        .top-menu {
             max-width: 960px;
         }
         .nav {
@@ -140,6 +141,9 @@
         .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
             color: #573229;
             background-color: transparent;
+        }
+        .dropdown:hover .dropdown-menu{
+            display: block;
         }
     }
     @media (max-width: 767px) {
