@@ -31,49 +31,49 @@
                             <div class="item active">
                                 <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
                                     <a href="#">
-                                        <img src="images/android-app-store.png" alt=""/>
+                                        <img src="images/google-play-badge.png" width="90px" height="90px" alt=""/>
                                     </a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
                                     <a href="#">
-                                        <img src="images/app-store.png" alt=""/>
+                                        <img src="images/haccp.png" width="90px" height="90px" alt=""/>
                                     </a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
                                     <a href="#">
-                                        <img src="images/haccp-certification-in-dubai.png" alt=""/>
+                                        <img src="images/google-play-badge.png" width="90px" height="90px" alt=""/>
                                     </a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
                                     <a href="#">
-                                        <img src="images/probat-black.jpg" alt=""/>
+                                        <img src="images/haccp.png" width="90px" height="90px" alt=""/>
                                     </a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
                                     <a href="#">
-                                        <img src="images/brand.gif" alt=""/>
+                                        <img src="images/google-play-badge.png" width="90px" height="90px" alt=""/>
                                     </a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
                                     <a href="#">
-                                        <img src="images/rainforest-alliance-certified-seal-lg.png" alt=""/>
+                                        <img src="images/haccp.png" width="90px" height="90px" alt=""/>
                                     </a>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="col-md-2 col-sm-2 col-xs-12 demo" style="text-align: center">
                                     <a href="#">
-                                        <img src="images/vinh-hiep.png" alt=""/>
+                                        <img src="images/google-play-badge.png" width="90px" height="90px" alt=""/>
                                     </a>
                                 </div>
                             </div>
