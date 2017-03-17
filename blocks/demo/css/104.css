@@ -90,7 +90,16 @@
     display: none;
   }
   .type-104 .title {
-    font-size: 12px;
+    font-size: 15px !important;
     text-align: center;
+  }
+  .type-104 .p-content {
+    font-size: 12px !important;
+  }
+  .type-104 .btn-click {
+    margin: 0 0 10px 0 !important;
+  }
+  .type-104 .a-click {
+    font-size: 13px !important;
   }
 }
