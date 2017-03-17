@@ -1,5 +1,8 @@
 .type-104 {
   font-family: PT Serif;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 .type-104 .clear {
   clear: both;
@@ -48,7 +51,17 @@
 .type-104 .product .btn-click .fa {
   font-size: 15px;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .type-104 {
+    position: absolute;
+    z-index: 100;
+  }
+}
+@media (max-width: 767px) {
+  .type-104 {
+    background-color: #512D1F;
+    padding-bottom: 15px;
+  }
   .type-104 img {
     display: none;
   }
@@ -77,7 +90,16 @@
     display: none;
   }
   .type-104 .title {
-    font-size: 12px;
+    font-size: 15px !important;
     text-align: center;
+  }
+  .type-104 .p-content {
+    font-size: 12px !important;
+  }
+  .type-104 .btn-click {
+    margin: 0 0 10px 0 !important;
+  }
+  .type-104 .a-click {
+    font-size: 13px !important;
   }
 }
