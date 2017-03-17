@@ -1,8 +1,8 @@
 .type-103{
     @color_background_footer: #512d1f;
     @color_font_white: #fff;
-    border-top: 3px solid #f0d898;
-    
+    border-top: 5px solid #f0d898;
+
     .copyright {
         background: @color_background_footer;
         color: @color_font_white;
@@ -17,6 +17,10 @@
             img {
                 padding: 0 8px;
             }
+
+        }
+        img:hover{
+            opacity: 0.5;
         }
         .dropbtn {
             background-color: #d5d0cc;
@@ -36,14 +40,34 @@
         }
         .carousel-control {
             width: 4%;
-            top: 15px;
+            top: 25px;
         }
         .fa{
             font-size: 30px;
-            
+
         }
     }
 
+
+
+    /* display none until init */
+
+    .owl-carousel .owl-wrapper-outer{
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+    .owl-carousel .owl-item{
+        float: left;
+    }
+    .owl-controls .owl-page, .owl-controls .owl-buttons div{
+        cursor: pointer;
+    }
+    img{
+        width: 60%;
+    }
+    
+    
     /*------------REPONSIVE----------*/
     @media (min-width: 992px){
         .dropbtn{
@@ -85,11 +109,35 @@
                 display: block;
             }
         }
-        
-        
+        .copyright{
+            padding: 0 !important;
+            p{
+                text-align: center;
+                padding: 15px 0px !important;
+            }
+
+        }
+        /*        .carousel-control{
+                    top: 25px !important;
+                }*/
+        .carousel-inner{
+            margin-bottom: 15px;
+        }
+        img{
+            width: 45% !important;
+        }
+        .logo{
+            margin-bottom: 15px;
+        }
+
     }
-    
-    
+    @media (max-width: 480px){
+        img{
+            width: 35% !important;
+        }
+    }
+
+
 }
 
 

@@ -25,7 +25,7 @@
             <!--HEADER TOP-->
 
             <!--/END HEADER TOP-->
-            <div class="container-fluld" style="padding: 2px;"></div>
+            <!--            <div class="container-fluld" style="padding: 2px;"></div>-->
             <!--MENU-->
             <div class="body-wrap">
                 <div class="container-fluid">
@@ -70,31 +70,10 @@
             </div>
             <!--/END MENU-->
 
-            <div class="container-fluld" style="padding: 2px;"></div>
+            <div class="container-fluld" style="padding: 2px; background-color: #f0d898"> </div>
 
         </div>
         <div class="clearfix"></div>
     </div>
-    
-    <!--    
-    <script>
-        $(document).ready(function () {
-            function headHover() {
-                if ($(document).width() >= 768) {
-                    $('ul.nav li.dropdown').hover(function () {
-                        $(this).find('.dropdown-menu').stop(true, true).delay(20).fadeIn(200);
-                    }, function () {
-                        $(this).find('.dropdown-menu').stop(true, true).delay(20).fadeOut(200);
-                    });
-                } else {
-                    $('ul.nav li.dropdown').unbind('hover');
-                }
-            }
-            headHover();
-            $(document).resize(function () {
-                headHover();
-            });
-        });
-    </script>-->
-    
+
 </body>

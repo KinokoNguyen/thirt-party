@@ -80,7 +80,7 @@
     float: right;
   }
   .type-100 .dropdown-content {
-    display: block;
+    display: none;
     position: absolute;
     background-color: #f0d898;
     min-width: 140px;
