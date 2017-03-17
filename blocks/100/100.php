@@ -20,10 +20,10 @@
 
 <body>
     <div class="type-100">
-        <div class="container-fluld">
+        <div class="container-fluld menu">
             <!--HEADER TOP-->
             <div class="header-top">
-                <div class="container">
+                <div class="container header-top-dr">
                     <div class="dropdown">
                         <!--BUTTON DROP DOWN-->
                         <div class="dropbtn">
@@ -39,12 +39,14 @@
                             <div class="top-icons">
                                 <ul>
                                     <li> <p class="fa fa-phone" aria-hidden="true">19002077</p></li>    
+                                    
                                     <li class="right">
                                         <a href="#">
                                             <b>Câu chuyện L'amant </b>
                                             <span class="fa fa-comment" aria-hidden="true"></span>
                                         </a> 
                                     </li>
+                                    
                                     <li class="right">
                                         <a href="#">
                                             <b>Giao hàng miễn phí </b>

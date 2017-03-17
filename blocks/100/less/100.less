@@ -6,7 +6,7 @@
     .clear{
         clear: both;
     }
-    .container-fluld {
+    .menu {
         background: @color_background_header;
     }
 
@@ -61,7 +61,7 @@
 
     /*-------------REPONSIVE--------------*/
     @media (min-width: 992px){
-        .container {
+        .header-top-dr {
             max-width: 960px;
         }
     }
@@ -85,12 +85,14 @@
             float: right;
         }
         .dropdown-content {
-            display: none;
+            display: block;
             position: absolute;
             background-color: @color_background_header;
             min-width: 140px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 9999;
+            height: 175px;
+            right: 5px;
             a {
                 padding: 5px 15px 5px 5px;
                 display: block;
@@ -111,6 +113,9 @@
         }
         .top-icons ul li {
             border-right: none;
+        }
+        .top-icons {
+            padding-top: 0 !important; 
         }
     }
 }
