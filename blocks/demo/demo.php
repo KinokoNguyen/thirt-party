@@ -22,9 +22,7 @@
     <link href="css/102.css" rel="stylesheet" type="text/css"/>
     <link href="css/104.css" rel="stylesheet" type="text/css"/>
     <link href="css/103.css" rel="stylesheet" type="text/css"/>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-    <script src="js/102.js" type="text/javascript"></script>
     <script src="js/index.js" type="text/javascript"></script>
 
 </head>
