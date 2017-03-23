@@ -218,11 +218,18 @@
   border-right: none;
   border-bottom: none;
 }
+.type-comments .list-group-item span {
+  color: #808080 ;
+}
 .type-comments .list-group-item a {
   color: black;
 }
 .type-comments .list-group-item a:hover {
   color: #D0021B;
+}
+.type-comments .list-group-item .text-info {
+  font-weight: 700;
+  color: #777;
 }
 .type-comments .yt-uix-button-opacity {
   opacity: .5;
@@ -244,7 +251,6 @@
 }
 .type-comments .like-dislike span {
   cursor: pointer;
-  color: #808080;
   margin-right: 10px;
 }
 .type-comments .like-dislike span:hover {

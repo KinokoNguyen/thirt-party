@@ -1,6 +1,4 @@
 
-
-
 $('ul.list-group').each(function () {
     if ($(this).find('li').length > 1) {
         $('li', this).eq(0).nextAll().hide().addClass('toggleable');
