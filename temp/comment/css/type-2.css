@@ -125,6 +125,19 @@
   border-style: solid solid none;
   border-width: 1px 0;
 }
+.type-comments .ibox-content ul {
+  list-style: none;
+}
+.type-comments .ibox-content a {
+  text-decoration: none;
+}
+.type-comments .ibox-content .more {
+  color: black;
+  cursor: pointer;
+}
+.type-comments .ibox-content .more:hover {
+  color: #D0021B;
+}
 .type-comments .ibox-content {
   clear: both;
 }
@@ -134,22 +147,16 @@
   padding-top: 10px;
 }
 .type-comments .timeline-item .date i {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 5px;
-  width: 30px;
-  text-align: center;
-  border-top: 1px solid #e7eaec;
-  border-bottom: 1px solid #e7eaec;
-  border-left: 1px solid #e7eaec;
-  background: #f8f8f8;
+  font-size: 40px;
 }
 .type-comments .text-navy {
   color: #1ab394;
 }
 .type-comments .m-b-xs {
   margin-bottom: 5px;
+}
+.type-comments .m-b-xs i {
+  font-size: 20px;
 }
 .type-comments .timeline-item .content {
   border-left: 1px solid #e7eaec;
@@ -164,8 +171,9 @@
   width: 38px;
   height: 38px;
 }
-.type-comments .avatar-user img {
-  margin-bottom: 10px;
+.type-comments .avatar-user i:hover {
+  color: #636363;
+  cursor: pointer;
 }
 .type-comments .timeline-item .content:hover {
   background: #f6f6f6;
@@ -199,8 +207,12 @@
 .type-comments .dislike i {
   margin-right: 5px;
 }
-.type-comments .like-dislike {
-  float: right;
+.type-comments .like-dislike span {
+  cursor: pointer;
+  color: black;
+}
+.type-comments .like-dislike span:hover {
+  color: #D0021B;
 }
 @media screen and (max-width: 990px) {
   .type-comments .timeline-item .date {
