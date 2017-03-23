@@ -23,33 +23,10 @@
 
     <body>
         <div class="type-comments">
-            <div class="col-md-4 col-sm-6 col-xs-12"></div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="col-md-2 col-sm-6 col-xs-12"></div>
+            <div class="col-md-8 col-sm-6 col-xs-12">
                 <div class="ibox">
-                    <!--HEADING-->
-                    <div class="ibox-title">
-                        <h5>Alpha project</h5>
-                        <div class="ibox-tools">
-                            <a>
-                                <i class="fa fa-chevron-up"></i>
-                            </a>
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                <i class="fa fa-wrench"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Config option 1</a>
-                                </li>
-                                <li>
-                                    <a href="#">Config option 2</a>
-                                </li>
-                            </ul>
-                            <a>
-                                <i class="fa fa-times"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!--/HEADING-->
+                    
                     <!--OVERVIEW-->
                     <div class="ibox-content ibox-heading">
                         <h3>You have meeting today!</h3>
@@ -58,6 +35,7 @@
                         </small>
                     </div>
                     <!--/OVERVIEW-->
+                    
                     <!--LIST COMMENT-->
                     <div class="ibox-content">
                         <!--ITEM COMMENT-->
@@ -82,8 +60,10 @@
                                 <div class="col-md-8 col-sm-12 col-xs-12 content no-top-border">
                                     <!-- COMMENT BIG -->
                                     <p class="m-b-xs">
-                                        <i class="fa fa-user" aria-hidden="true"></i>
-                                        <strong> Meeting </strong>
+                                        <a href="#">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            <strong> Meeting </strong>
+                                        </a>
                                     </p>
                                     <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
                                     <p>Conference on the sales results for the previous year. Monica please examine sales trends in marketing and products. Below please find the current status of the
@@ -115,8 +95,10 @@
                                     <ul class="list-group">
                                         <li class="list-group-item">
                                             <div class="row">
+                                                <a href="#"> 
                                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                                <strong>Kim Smith</strong> posted message on <strong>Monica Smith</strong> site. <br>
+                                                <strong>Kim Smith</strong> 
+                                                </a> posted message on <strong>Monica Smith</strong> site. <br>
                                             </div>
                                             <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
                                             <p>
@@ -148,23 +130,26 @@
                                         </li>
                                         <li class="list-group-item">
                                             <div class="row">
+                                                <a href="#"> 
                                                 <i class="fa fa-user" aria-hidden="true"></i>
-                                                <strong>Kim Smith</strong> posted message on <strong>Monica Smith</strong> site. <br>
+                                                <strong>Kim Smith</strong> 
+                                                </a> posted message on <strong>Monica Smith</strong> site. <br>
                                             </div>
                                             <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
                                             <p>
-                                                xxxxx
+                                                <a class="text-info" href="#">@Alan Marry</a> 
+                                                I belive that. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                                             </p>
                                             <small class="block"><i class="fa fa-clock-o"></i> 1 minuts ago</small>
                                             <div class="like-dislike">
 
-                                                <span class="like" onclick="show(2)">
+                                                <span class="like" onclick="show(1)">
                                                     <i class="fa fa-thumbs-up" aria-hidden="true"></i>80
                                                 </span>
-                                                <span href="#" class="dislike" onclick="show(2)">
+                                                <span href="#" class="dislike" onclick="show(1)">
                                                     <i class="fa fa-thumbs-down" aria-hidden="true"></i>2
                                                 </span>
-                                                <span href="#" class="reply" onclick="show(2)">
+                                                <span href="#" class="reply" onclick="show(1)">
                                                     <i class="fa fa-reply" aria-hidden="true"></i>
                                                 </span>
 
@@ -177,66 +162,6 @@
                                             </div>
 
 
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="row">
-                                                <i class="fa fa-user" aria-hidden="true"></i>
-                                                <strong>Kim Smith</strong> posted message on <strong>Monica Smith</strong> site. <br>
-                                            </div>
-                                            <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
-                                            <p>
-                                                xxxxx
-                                            </p>
-                                            <small class="block"><i class="fa fa-clock-o"></i> 1 minuts ago</small>
-                                            <div class="like-dislike">
-
-                                                <span class="like" onclick="show(2)">
-                                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>80
-                                                </span>
-                                                <span href="#" class="dislike" onclick="show(2)">
-                                                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>2
-                                                </span>
-                                                <span href="#" class="reply" onclick="show(2)">
-                                                    <i class="fa fa-reply" aria-hidden="true"></i>
-                                                </span>
-
-                                            </div>
-
-                                            <div class="notification">
-                                                <i  class="fa fa-times" aria-hidden="true">
-                                                    <a href="#" class="text-noti"></a>
-                                                </i>
-                                            </div>
-                                        </li>
-                                        <li class="list-group-item">
-                                            <div class="row">
-                                                <i class="fa fa-user" aria-hidden="true"></i>
-                                                <strong>Kim Smith</strong> posted message on <strong>Monica Smith</strong> site. <br>
-                                            </div>
-                                            <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
-                                            <p>
-                                                xxxxx
-                                            </p>
-                                            <small class="block"><i class="fa fa-clock-o"></i> 1 minuts ago</small>
-                                            <div class="like-dislike">
-
-                                                <span class="like" onclick="show(2)">
-                                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>80
-                                                </span>
-                                                <span href="#" class="dislike" onclick="show(2)">
-                                                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>2
-                                                </span>
-                                                <span href="#" class="reply" onclick="show(2)">
-                                                    <i class="fa fa-reply" aria-hidden="true"></i>
-                                                </span>
-
-                                            </div>
-
-                                            <div class="notification">
-                                                <i  class="fa fa-times" aria-hidden="true">
-                                                    <a href="#" class="text-noti"></a>
-                                                </i>
-                                            </div>
                                         </li>
                                     </ul>
 
@@ -250,7 +175,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12"></div>
+            <div class="col-md-2 col-sm-6 col-xs-12"></div>
 
         </div>
         <script src="js/2.js" type="text/javascript"></script>

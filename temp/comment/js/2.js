@@ -2,8 +2,8 @@
 
 
 $('ul.list-group').each(function () {
-    if ($(this).find('li').length > 3) {
-        $('li', this).eq(2).nextAll().hide().addClass('toggleable');
+    if ($(this).find('li').length > 1) {
+        $('li', this).eq(0).nextAll().hide().addClass('toggleable');
         $(this).append('<li class="more">More...</li>');
     }
     $(this).on('click', '.more', toggleShow);
