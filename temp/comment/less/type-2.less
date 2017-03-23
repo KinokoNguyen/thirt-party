@@ -129,9 +129,31 @@
         .more{
             color:black;
             cursor:pointer;
+            font-weight: bold;
+            font-size: 15px;
         }
         .more:hover{
+            opacity: 0.8;
+        }
+        .notification{
+            display: none;
+            margin: 10px 0;
             color: @color_hover;
+            padding: 5px;
+            border: 1px solid @color_hover;
+            border-radius: 5px;
+            background: #ffecee;
+            i{
+                font-size: 15px;
+            }
+            a:hover{
+               color: red;
+            }
+            .text-noti{
+                color: @color_hover;
+                margin-left: 5px;
+            }
+            
         }
     }
     .ibox-content {
@@ -185,6 +207,7 @@
         border-left: none;
         border-right: none;
         border-bottom: none;
+        opacity: 0.9;
     }
     .yt-uix-button-opacity {
         opacity: .5;

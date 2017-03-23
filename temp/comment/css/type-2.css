@@ -134,9 +134,30 @@
 .type-comments .ibox-content .more {
   color: black;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
 }
 .type-comments .ibox-content .more:hover {
+  opacity: 0.8;
+}
+.type-comments .ibox-content .notification {
+  display: none;
+  margin: 10px 0;
   color: #D0021B;
+  padding: 5px;
+  border: 1px solid #D0021B;
+  border-radius: 5px;
+  background: #ffecee;
+}
+.type-comments .ibox-content .notification i {
+  font-size: 15px;
+}
+.type-comments .ibox-content .notification a:hover {
+  color: red;
+}
+.type-comments .ibox-content .notification .text-noti {
+  color: #D0021B;
+  margin-left: 5px;
 }
 .type-comments .ibox-content {
   clear: both;
@@ -188,6 +209,7 @@
   border-left: none;
   border-right: none;
   border-bottom: none;
+  opacity: 0.9;
 }
 .type-comments .yt-uix-button-opacity {
   opacity: .5;
