@@ -180,7 +180,6 @@
   font-size: 20px;
 }
 .type-comments .timeline-item .content {
-  border-left: 1px solid #e7eaec;
   padding-top: 10px;
   min-height: 100px;
 }
@@ -209,7 +208,7 @@
   border-left: none;
   border-right: none;
   border-bottom: none;
-  opacity: 0.9;
+  opacity: 0.7;
 }
 .type-comments .yt-uix-button-opacity {
   opacity: .5;
@@ -217,21 +216,22 @@
 }
 .type-comments .like {
   float: left;
-  margin-right: 10px;
   text-decoration: none;
 }
 .type-comments .like i {
-  margin-right: 5px;
+  margin-right: 4px;
 }
 .type-comments .dislike {
+  float: left;
   text-decoration: none;
 }
 .type-comments .dislike i {
-  margin-right: 5px;
+  margin-right: 4px;
 }
 .type-comments .like-dislike span {
   cursor: pointer;
   color: black;
+  margin-right: 10px;
 }
 .type-comments .like-dislike span:hover {
   color: #D0021B;
@@ -242,5 +242,10 @@
     position: relative;
     padding-top: 10px;
     margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .type-comments .timeline-item .content {
+    border-left: 1px solid #e7eaec;
   }
 }
