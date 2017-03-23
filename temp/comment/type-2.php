@@ -17,9 +17,8 @@
         $less->compileFile('less/type-2.less', 'css/type-2.css');
         ?>
         <link href="css/type-2.css" rel="stylesheet" type="text/css" />
-
-
-
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        
     </head>
 
     <body>
@@ -66,12 +65,14 @@
                             <div class="row">
                                 <!--USER INFO-->
                                 <div class="col-md-4 col-sm-12 col-xs-12 date">
-                                    <a href="#" class="avatar-user">
-                                        <img alt="image" class="img-circle" src="images/profile.jpg">
-                                    </a>
-                                    <div class="clear" style="clear: both"></div>
+                                    <span class="avatar-user">
+                                        <i class="fa fa-user img-circle" aria-hidden="true"></i>
+<!--                                        <img alt="image" class="img-circle" src="images/profile.jpg">-->
+                                        <br>
+                                    </span>
+
                                     <div>
-                                        Points: 12345
+                                        Đã có : 15 bài
                                     </div>
                                     <!--LEVEL-->
                                     <small class="text-navy">Senior</small>
@@ -80,23 +81,32 @@
                                 <!--/USER INFO-->
                                 <div class="col-md-8 col-sm-12 col-xs-12 content no-top-border">
                                     <!-- COMMENT BIG -->
-                                    <p class="m-b-xs"><strong>Meeting</strong></p>
+                                    <p class="m-b-xs">
+                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                        <strong> Meeting </strong>
+                                    </p>
                                     <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
                                     <p>Conference on the sales results for the previous year. Monica please examine sales trends in marketing and products. Below please find the current status of the
                                         sale.
                                     </p>
                                     <div class="like-dislike">
-                                        <a href="#" class="like">
+
+                                        <span class="like">
                                             <i class="fa fa-thumbs-up" aria-hidden="true"></i>80
-                                        </a>
-                                        <a href="#" class="dislike">
+                                        </span>
+                                        <span href="#" class="dislike">
                                             <i class="fa fa-thumbs-down" aria-hidden="true"></i>2
-                                        </a>
+                                        </span>
+                                        <span href="#" class="reply">
+                                            <i class="fa fa-reply" aria-hidden="true"></i>
+                                        </span>
+
                                     </div>
                                     <div class="clear" style="clear: both"></div>
                                     <!-- COMMENT SMALL -->
                                     <ul class="list-group">
                                         <li class="list-group-item">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
                                             <strong>Kim Smith</strong> posted message on <strong>Monica Smith</strong> site. <br>
                                             <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
                                             <p>
@@ -105,15 +115,120 @@
                                             </p>
                                             <small class="block"><i class="fa fa-clock-o"></i> 1 minuts ago</small>
                                             <div class="like-dislike">
-                                                <a href="#" class="like">
+                                                <span class="like">
                                                     <i class="fa fa-thumbs-up" aria-hidden="true"></i>80
-                                                </a>
-                                                <a href="#" class="dislike">
+                                                </span>
+                                                <span href="#" class="dislike">
                                                     <i class="fa fa-thumbs-down" aria-hidden="true"></i>2
-                                                </a>
+                                                </span>
+                                                <span href="#" class="reply">
+                                                    <i class="fa fa-reply" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            <strong>Kim Smith</strong> posted message on <strong>Monica Smith</strong> site. <br>
+                                            <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
+                                            <p>
+                                                xxxx
+                                            </p>
+                                            <small class="block"><i class="fa fa-clock-o"></i> 1 minuts ago</small>
+                                            <div class="like-dislike">
+                                                <span class="like">
+                                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>80
+                                                </span>
+                                                <span href="#" class="dislike">
+                                                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>2
+                                                </span>
+                                                <span href="#" class="reply">
+                                                    <i class="fa fa-reply" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            <strong>Kim Smith</strong> posted message on <strong>Monica Smith</strong> site. <br>
+                                            <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
+                                            <p>
+                                                xxxx
+                                            </p>
+                                            <small class="block"><i class="fa fa-clock-o"></i> 1 minuts ago</small>
+                                            <div class="like-dislike">
+                                                <span class="like">
+                                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>80
+                                                </span>
+                                                <span href="#" class="dislike">
+                                                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>2
+                                                </span>
+                                                <span href="#" class="reply">
+                                                    <i class="fa fa-reply" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            <strong>Kim Smith</strong> posted message on <strong>Monica Smith</strong> site. <br>
+                                            <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
+                                            <p>
+                                                xxxx
+                                            </p>
+                                            <small class="block"><i class="fa fa-clock-o"></i> 1 minuts ago</small>
+                                            <div class="like-dislike">
+                                                <span class="like">
+                                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>80
+                                                </span>
+                                                <span href="#" class="dislike">
+                                                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>2
+                                                </span>
+                                                <span href="#" class="reply">
+                                                    <i class="fa fa-reply" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            <strong>Kim Smith</strong> posted message on <strong>Monica Smith</strong> site. <br>
+                                            <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
+                                            <p>
+                                                xxxx
+                                            </p>
+                                            <small class="block"><i class="fa fa-clock-o"></i> 1 minuts ago</small>
+                                            <div class="like-dislike">
+                                                <span class="like">
+                                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>80
+                                                </span>
+                                                <span href="#" class="dislike">
+                                                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>2
+                                                </span>
+                                                <span href="#" class="reply">
+                                                    <i class="fa fa-reply" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                            <strong>Kim Smith</strong> posted message on <strong>Monica Smith</strong> site. <br>
+                                            <small class="text-muted">Yesterday 5:20 pm - 12.06.2014</small>
+                                            <p>
+                                                xxxx
+                                            </p>
+                                            <small class="block"><i class="fa fa-clock-o"></i> 1 minuts ago</small>
+                                            <div class="like-dislike">
+                                                <span class="like">
+                                                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>80
+                                                </span>
+                                                <span href="#" class="dislike">
+                                                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>2
+                                                </span>
+                                                <span href="#" class="reply">
+                                                    <i class="fa fa-reply" aria-hidden="true"></i>
+                                                </span>
                                             </div>
                                         </li>
                                     </ul>
+
+
                                     <!--END COMMENT SMALL -->
                                     <!--END COMMENT BIG -->
                                 </div>
@@ -126,6 +241,8 @@
             <div class="col-md-4 col-sm-6 col-xs-12"></div>
 
         </div>
+        <script src="js/2.js" type="text/javascript"></script>
+
     </body>
 
 </html>

@@ -1,4 +1,6 @@
 .type-comments{
+    @color_border: #e7eaec;
+    @color_hover: #D0021B;
     margin-top: 50px;
     .ibox {
         clear: both;
@@ -122,6 +124,15 @@
         border-image: none;
         border-style: solid solid none;
         border-width: 1px 0;
+        ul{list-style:none;}
+        a{text-decoration:none;}
+        .more{
+            color:black;
+            cursor:pointer;
+        }
+        .more:hover{
+            color: @color_hover;
+        }
     }
     .ibox-content {
         clear: both;
@@ -131,16 +142,7 @@
         position: relative;
         padding-top: 10px;
         i {
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding: 5px;
-            width: 30px;
-            text-align: center;
-            border-top: 1px solid #e7eaec;
-            border-bottom: 1px solid #e7eaec;
-            border-left: 1px solid #e7eaec;
-            background: #f8f8f8;
+            font-size: 40px;
         }
     }
     .text-navy {
@@ -148,6 +150,9 @@
     }
     .m-b-xs {
         margin-bottom: 5px;
+        i{
+            font-size: 20px;
+        }
     }
     .timeline-item .content {
         border-left: 1px solid #e7eaec;
@@ -161,10 +166,12 @@
         width: 38px;
         height: 38px;
     }
-    .avatar-user img{
-        margin-bottom: 10px;
+    .avatar-user{
+        i:hover{
+            color: #636363;
+            cursor: pointer;
+        }
     }
-
     .timeline-item .content:hover {
         background: #f6f6f6;
     }
@@ -198,8 +205,17 @@
         }
     }
     .like-dislike{
-        float: right
+        span{
+            cursor: pointer;
+            color: black;
+        }
+        span:hover{
+            color: @color_hover;
+        }
     }
+
+
+
     @media screen and (max-width: 990px) {
         .timeline-item .date{
             text-align: center;
