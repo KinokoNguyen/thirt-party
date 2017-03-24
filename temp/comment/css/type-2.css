@@ -263,9 +263,16 @@
     padding-top: 10px;
     margin: 0 auto;
   }
+  .type-comments .date {
+    display: none;
+  }
 }
 @media (min-width: 992px) {
   .type-comments .timeline-item .content {
     border-left: 1px solid #e7eaec;
+  }
+  .type-comments .icon {
+    display: none;
+    margin-right: 5px;
   }
 }
